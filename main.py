@@ -71,8 +71,8 @@ def show_objective_screen(screen, level_data):
     font_small = pygame.font.SysFont(None, 32)
     
     start_time = time.time()
-    duration = 4  # Show for 4 seconds
-    
+    duration = 10  # Show for 10 seconds
+
     while time.time() - start_time < duration:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -102,7 +102,6 @@ def show_objective_screen(screen, level_data):
         controls = [
             "CONTROLS:",
             "Drag tiles from bottom panel to build",
-            "R - Rotate selected tile",
             "SPACE - Start physics simulation",
             "",
             "Click anywhere to continue..."

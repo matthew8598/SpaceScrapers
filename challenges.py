@@ -588,7 +588,7 @@ class MeteoriteShower:
         # Meteorite properties
         self.meteorites = []
         self.spawn_timer = 0
-        self.spawn_interval = 0.5  # Spawn a meteorite every 0.5 seconds
+        self.spawn_interval = 0.1  # Spawn a meteorite every 0.1 seconds
         self.total_meteorites_spawned = 0
         self.max_meteorites = 45  # Maximum number of meteorites to spawn
         

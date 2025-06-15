@@ -46,7 +46,7 @@ class LevelStorage:
                 "background_image": "assets/windows-xp-bliss-wallpaper-hq-2560x1440-v0-nbjxvz68exbb1-ezgif.com-webp-to-jpg-converter.jpg",
                 "ground_image": (80, 60, 40),
                 "target_height": 400,  # Height above ground that tower must reach
-                "objective": "Build a tower to reach the target line and survive for 6 seconds. Be careful giant wrecking ball is coming!",
+                "objective": "Build a tower to reach the target line and survive for 12 seconds. Be careful giant wrecking ball is coming!",
                 "tiles": {
                     "rectangle": {"count": 2},
                     "beam": {"count": 2},
@@ -59,7 +59,7 @@ class LevelStorage:
                 "background_image": "assets/surface_of_jupiter_by_xdeathwingx_d9cb06o-fullview.jpg",
                 "ground_image": (60, 80, 100),
                 "target_height": 500,  # Slightly higher target
-                "objective": "Build a tower to reach the target line and survive for 6 seconds with jupiters strong winds",
+                "objective": "Build a tower to reach the target line and survive for 12 seconds with jupiters strong winds",
                 "tiles": {
                     "rectangle": {"count": 3},
                     "beam": {"count": 3},
@@ -72,7 +72,7 @@ class LevelStorage:
                 "background_image": "assets/mars-planeta-opportunity-foto-1792.jpg",
                 "ground_image": (100, 60, 60),
                 "target_height": 650,  # Highest target
-                "objective": "Build a tower to reach the target line and survive for 6 seconds. watch out for the meteor shower!",
+                "objective": "Build a tower to reach the target line and survive for 12 seconds. watch out for the meteor shower!",
                 "tiles": {
                     "square": {"count": 2},
                     "rectangle": {"count": 3},

@@ -42,8 +42,8 @@ import pygame
 import math
 
 # Configuration constants
-DEBUG_MODE = True  # Set to True to show collision detection lines
-COLLISION_DEBUG = True  # Set to True to show collision detection feedback
+DEBUG_MODE = False  # Set to True to show collision detection lines
+COLLISION_DEBUG = False  # Set to True to show collision detection feedback
 
 # Try to import sprite_manager, create fallback if not available
 try:
